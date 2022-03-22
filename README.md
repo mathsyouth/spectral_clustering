@@ -7,8 +7,8 @@ Machine learning methods based on [spectral clustering](https://en.wikipedia.org
 
 - [LAPACK — Linear Algebra PACKage](http://www.netlib.org/lapack/) is written in Fortran 90 and provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. 
 - [Lapack++](https://math.nist.gov/lapack++/) (Linear Algebra PACKage in C++) is a software library for numerical linear algebra that solves systems of linear equations and eigenvalue problems on high performance computer architectures.
-- [CLAPACK](https://github.com/NIRALUser/CLAPACK).
-- [ C wrapper for LAPACK](http://www.netlib.org/lapack/lapwrapc/).
+- [CLAPACK](https://github.com/NIRALUser/CLAPACK) was built using a Fortran to C conversion utility called f2c.
+- [C wrapper for LAPACK](http://www.netlib.org/lapack/lapwrapc/).
 - [BLOPEX](https://github.com/lobpcg/blopex) (Block Locally Optimal Preconditioned Eigenvalue Xolvers) is a package, written in C and MATLAB/OCTAVE, that includes an eigensolver implemented with the Locally Optimal Block Preconditioned Conjugate Gradient Method ([LOBPCG](https://en.wikipedia.org/wiki/LOBPCG)). 
 - [LOBPCG](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.lobpcg.html) in SciPy.
 - [LOBPCG](https://github.com/pytorch/pytorch/blob/master/torch/_lobpcg.py) in Pytorch.
@@ -22,7 +22,14 @@ Machine learning methods based on [spectral clustering](https://en.wikipedia.org
 
 ### Acknowledgements
 
-Our work builds on and uses code from [rsc](https://github.com/abojchevski/rsc) and [fastsc](https://github.com/yuj-umd/fastsc). We'd like to thank the authors for making these libraries available.
+Our work builds on and uses codes from:
+
+- [rsc](https://github.com/abojchevski/rsc) 
+- [fastsc](https://github.com/yuj-umd/fastsc)
+- [Spectral Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.SpectralClustering.html) in scikit-learn
+- [pygco](https://github.com/amueller/gco_python)
+
+We'd like to thank the authors for making these libraries available.
 
 ### License 
 
